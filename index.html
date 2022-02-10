@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Fizrieq Personal Website</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/tooplate-style.css">
+
+	<script>
+		var renderPage = true;
+
+	if(navigator.userAgent.indexOf('MSIE')!==-1
+		|| navigator.appVersion.indexOf('Trident/') > 0){
+   		alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+   		renderPage = false;
+	}
+	</script>
+</head>
+
+<body>
+	<!-- Loader -->
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	
+	<!-- Page Content -->
+	<div class="container-fluid tm-main">
+		<div class="row tm-main-row">
+
+			<!-- Sidebar -->
+			<div id="tmSideBar" class="col-xl-3 col-lg-4 col-md-12 col-sm-12 sidebar">
+
+				<button id="tmMainNavToggle" class="menu-icon">&#9776;</button>
+
+				<div class="inner">
+					<nav id="tmMainNav" class="tm-main-nav">
+						<ul>
+							<li>
+								<a href="#intro" id="tmNavLink1" class="scrolly active" data-bg-img="eriqbg1.png" data-page="#tm-section-1">
+									<i class="fas fa-home tm-nav-fa-icon"></i>
+									<span>Biodata</span>
+								</a>
+							</li>
+							<li>
+								<a href="#products" id="tmNavLink2" class="scrolly" data-bg-img="eriqbg5.jpg" data-page="#tm-section-2" data-page-type="carousel">
+									<i class="fas fa-map tm-nav-fa-icon"></i>
+									<span>Gallery</span>
+								</a>
+							</li>							
+							<li>
+								<a href="#company" class="scrolly" data-bg-img="eriqbg2.jpg" data-page="#tm-section-3">
+									<i class="fas fa-users tm-nav-fa-icon"></i>
+									<span>Education</span>
+								</a>
+							</li>
+							<li>
+								<a href="#contact" class="scrolly" data-bg-img="eriqbg4.jpg" data-page="#tm-section-4">
+									<i class="fas fa-comments tm-nav-fa-icon"></i>
+									<span>Experience</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 tm-content">
+
+					<!-- section 1 -->
+					<section id="tm-section-1" class="tm-section">
+						<div class="ml-auto">
+							<header class="mb-4"><h1 class="tm-text-shadow">Biodata</h1></header>
+							<p class="mb-5 tm-font-big">Hello ! My name is Muhammad Fizrieq Bin Mohd Fakhri. I was born in June 18th. I used to live in Pasir Mas but currently living in Tumpat, Kelantan. My dream when becoming an adult is to be an informer and right now I'm pursuing it in my diploma. Therefore, I planned to continuous my study in degree on one fine day</p>
+							<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a> 
+							<!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
+						</div>
+					</section>
+
+					<!-- section 2 -->
+					<section id="tm-section-2" class="tm-section tm-section-carousel">
+						<div>
+							<header class="mb-4"><h2 class="tm-text-shadow">Gallery</h2></header>		            
+							<div class="tm-img-container">
+								<div class="tm-img-slider">
+									<a href="img/eriq1.jpg" class="tm-slider-img"><img src="img/eriq1.jpg" alt="Image" class="img-fluid"></a>
+									<a href="img/eriq2.jpg" class="tm-slider-img"><img src="img/eriq2.jpg" alt="Image" class="img-fluid"></a>
+									<a href="img/eriq3.jpg" class="tm-slider-img"><img src="img/eriq3.jpg" alt="Image" class="img-fluid"></a>
+									<a href="img/eriq4.jpg" class="tm-slider-img"><img src="img/eriq4.jpg" alt="Image" class="img-fluid"></a>
+									<a href="img/eriq5.jpg" class="tm-slider-img"><img src="img/eriq5.jpg" alt="Image" class="img-fluid"></a>
+									<a href="img/eriq6.jpg" class="tm-slider-img"><img src="img/eriq6.jpg" alt="Image" class="img-fluid"></a>
+								</div>
+							</div>		            		          
+						</div>       		          	
+					</section>
+
+					<!-- section 3 -->
+					<section id="tm-section-3" class="tm-section">						
+						<div class="row mb-4">
+							<header class="col-xl-12"><h2 class="tm-text-shadow">Education</h2></header>		
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab fa-apple tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>Kindergarten</h3>
+										<p>When I was in kindergarten, I learned how to read and count and also met some friends and these friends are still in touch these days. I remember when I was playing police and thief and we're going upstairs but I accidentally slipped on the stairs leaving a lifetime scar on my left eyebrow.</p>	
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fas fa-map-pin mr-4 tm-icon-circled tm-icon-media"></i>	
+									<div class="media-body">
+										<h3>Sk Wakaf Baru</h3>
+										<p>The reason why I was here in this school is because my mother is an English teacher and she used to taught in this school before moving out to Sekolah Dalam Hospital in HUSM when I was 11 years old. I learned many things when I was in this elementary school. I used to be a member of nasheed band that play the congo or you can say as the drummer. We went on many tournament throughout the state but only once we got on first place. Other than that , either second or third most of the time</p>	
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab fa-fly mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>SMK Mahmud Mahyidin</h3>
+										<p>I've joined many things while in high school from sports field to co-curricular activities. Example for sports field, I joined between schools tournaments and made it to district tournament once in throwing games either disc or bullet. It was fun getting to know other competitors. As for co-curricular activities, I've joined several survival camping tournament between schools and districts. The first time I joined was when I was 13 years old knowing nothing about survival. I learnt that the instructors doesn't care how you survive as long as you survive. I was crying my heart out when the first day we arrived , it was raining heavily that night. Good ol' memories that I can never get back.</p>		
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
+								<div class="media tm-bg-transparent-black tm-border-white">
+									<i class="fab fa-linode mr-4 tm-icon-circled tm-icon-media"></i>
+									<div class="media-body">
+										<h3>UiTM Machang</h3>
+										<p>College changed a lot of perspective on my academic. First and foremost, I learnt that you can have fun all you want and nobody cares but when you failed, even if somebody cares about it , it still you that failed. I achieved a lot of things while in college. For example, I learned how to create a website thanks to my handsomely lecturer. I also learned how manage information correctly because that's what my courses are. It's been fun even I only have been twice to college due to pandemic. I wish things could be better but that's life for you. Ups and downs.</p>	
+									</div>
+								</div>
+							</div>			          		
+						</div>						               
+					</section>
+
+					<!-- section 4 -->
+					<section id="tm-section-4" class="tm-section">
+						<div class="tm-bg-transparent-black tm-contact-box-pad">
+							<div class="row mb-4">
+								<div class="col-sm-12">
+									<header><h2 class="tm-text-shadow">Experience</h2></header>
+								
+								</div>
+								<div class="col-md-6 col-sm-12 tm-contact-col">
+									<div class="tm-address-box">
+										<p>The experience I had while living my life to the fullest is when Covid-19 hit the fan. It didn't change my whole life but it certainly changed many living things. It brings us many good and bad fortunes but that's life for you.</p>
+										<p>Well, what's the meaning of living a 100 years old without having ups and downs in life? Life is a journey. Enjoy your journey. I'm trying my best to survive this pandemic to make it as an experience that can teach me how to live my life in this new norms.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>					
+				</div>	
+                 
+			</div>		
+		</div>
+		<div id="preload-01"></div>
+		<div id="preload-02"></div>
+		<div id="preload-03"></div>
+		<div id="preload-04"></div>
+
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
+
+		<script>
+
+		var sidebarVisible = false;
+		var currentPageID = "#tm-section-1";
+
+		// Setup Carousel
+		function setupCarousel() {
+
+			// If current page isn't Carousel page, don't do anything.
+			if($('#tm-section-2').css('display') == "none") {
+			}
+			else {	// If current page is Carousel page, set up the Carousel.
+
+				var slider = $('.tm-img-slider');
+				var windowWidth = $(window).width();
+
+				if (slider.hasClass('slick-initialized')) {
+					slider.slick('destroy');
+				}
+
+				if(windowWidth < 640) {
+					slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 1,
+	              		slidesToScroll: 1
+	              	});
+				}
+				else if(windowWidth < 992) {
+					slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 2,
+	              		slidesToScroll: 1
+	              	});
+				}
+				else {
+					// Slick carousel
+	              	slider.slick({
+	              		dots: true,
+	              		infinite: false,
+	              		slidesToShow: 3,
+	              		slidesToScroll: 2
+	              	});
+				}
+
+				// Init Magnific Popup
+				$('.tm-img-slider').magnificPopup({
+				  delegate: 'a', // child items selector, by clicking on it popup will open
+				  type: 'image',
+				  gallery: {enabled:true}
+				  // other options
+				});
+      		}
+  		}
+
+  		// Setup Nav
+  		function setupNav() {
+  			// Add Event Listener to each Nav item
+	     	$(".tm-main-nav a").click(function(e){
+	     		e.preventDefault();
+		    	
+		    	var currentNavItem = $(this);
+		    	changePage(currentNavItem);
+		    	
+		    	setupCarousel();
+		    	setupFooter();
+
+		    	// Hide the nav on mobile
+		    	$("#tmSideBar").removeClass("show");
+		    });	    
+  		}
+
+  		function changePage(currentNavItem) {
+  			// Update Nav items
+  			$(".tm-main-nav a").removeClass("active");
+     		currentNavItem.addClass("active");
+
+	    	$(currentPageID).hide();
+
+	    	// Show current page
+	    	currentPageID = currentNavItem.data("page");
+	    	$(currentPageID).fadeIn(1000);
+
+	    	// Change background image
+	    	var bgImg = currentNavItem.data("bgImg");
+	    	$.backstretch("img/" + bgImg);		    	
+  		}
+
+  		// Setup Nav Toggle Button
+  		function setupNavToggle() {
+
+			$("#tmMainNavToggle").on("click", function(){
+				$(".sidebar").toggleClass("show");
+			});
+  		}
+
+  		// If there is enough room, stick the footer at the bottom of page content.
+  		// If not, place it after the page content
+  		function setupFooter() {
+  			
+  			var padding = 100;
+  			var footerPadding = 40;
+  			var mainContent = $("section"+currentPageID);
+  			var mainContentHeight = mainContent.outerHeight(true);
+  			var footer = $(".footer-link");
+  			var footerHeight = footer.outerHeight(true);
+  			var totalPageHeight = mainContentHeight + footerHeight + footerPadding + padding;
+  			var windowHeight = $(window).height();		
+
+  			if(totalPageHeight > windowHeight){
+  				$(".tm-content").css("margin-bottom", footerHeight + footerPadding + "px");
+  				footer.css("bottom", footerHeight + "px");  			
+  			}
+  			else {
+  				$(".tm-content").css("margin-bottom", "0");
+  				footer.css("bottom", "20px");  				
+  			}  			
+  		}
+
+  		// Everything is loaded including images.
+      	$(window).on("load", function(){
+
+      		// Render the page on modern browser only.
+      		if(renderPage) {
+				// Remove loader
+		      	$('body').addClass('loaded');
+
+		      	// Page transition
+		      	var allPages = $(".tm-section");
+
+		      	// Handle click of "Continue", which changes to next page
+		      	// The link contains data-nav-link attribute, which holds the nav item ID
+		      	// Nav item ID is then used to access and trigger click on the corresponding nav item
+		      	var linkToAnotherPage = $("a.tm-btn[data-nav-link]");
+			    
+			    if(linkToAnotherPage != null) {
+			    	
+			    	linkToAnotherPage.on("click", function(){
+			    		var navItemToHighlight = linkToAnotherPage.data("navLink");
+			    		$("a" + navItemToHighlight).click();
+			    	});
+			    }
+		      	
+		      	// Hide all pages
+		      	allPages.hide();
+
+		      	$("#tm-section-1").fadeIn();
+
+		     	// Set up background first page
+		     	var bgImg = $("#tmNavLink1").data("bgImg");
+		     	
+		     	$.backstretch("img/" + bgImg, {fade: 500});
+
+		     	// Setup Carousel, Nav, and Nav Toggle
+			    setupCarousel();
+			    setupNav();
+			    setupNavToggle();
+			    setupFooter();
+
+			    // Resize Carousel upon window resize
+			    $(window).resize(function() {
+			    	setupCarousel();
+			    	setupFooter();
+			    });
+      		}	      	
+		});
+
+		</script>
+	</body>
+</html>
